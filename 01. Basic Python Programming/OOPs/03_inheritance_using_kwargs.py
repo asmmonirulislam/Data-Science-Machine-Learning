@@ -18,5 +18,5 @@ class Student(User):
         # print(*new_data)
         print(*[item for item in self.__dict__.values() if item is not None])
     
-sayem = Student(dept="CSE", batch="65D", name="A S M Monirul Islam")
+sayem = Student(dept="CSE", batch="65D", name="A S M Monirul Islam", id=3982)
 sayem.showDetails()
